@@ -1,5 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 
 module.exports = {
@@ -8,7 +10,7 @@ module.exports = {
         filename:"bundle.js",
         path: path.join(__dirname, "dist")
     },
-    mode:"development",
+    //mode:"development",
     module: {
         rules: [
         {
@@ -17,11 +19,10 @@ module.exports = {
         },
         {
             test: /\.scss$/,
-            use: [
-                "style-loader",
-                "css-loader",
-                "sass-loader"
-            ]
+            use: ExtractTextPlugin.extract({
+                fallback: "style-loader",
+                use: ["css-loader", "sass-loader"]
+              })
         }
     ]
   },
@@ -30,6 +31,14 @@ module.exports = {
         hash: true,
         template: './src/index.html',
         filename: 'index.html' //relative to root of the application
-    })
+    }),
+    new ExtractTextPlugin("main.css"),
+    new BrowserSyncPlugin({
+        // browse to http://localhost:3000/ during development,
+        // ./public directory is being served
+        host: 'localhost',
+        port: 3000,
+        server: { baseDir: ['dist'] }
+      })
   ]
 }
