@@ -8,7 +8,7 @@ module.exports = {
     entry: "./src/app.js",
     output: {
         filename:"bundle.js",
-        path: path.join(__dirname, "dist")
+        path: path.join(__dirname, "docs")
     },
     //mode:"development",
     module: {
@@ -38,7 +38,7 @@ module.exports = {
         // ./public directory is being served
         host: 'localhost',
         port: 3000,
-        server: { baseDir: ['dist'] }
+        server: { baseDir: ['docs'] }
       })
   ]
 }
