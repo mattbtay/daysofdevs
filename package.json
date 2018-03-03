@@ -1,0 +1,19 @@
+{
+  "name": "daysofdevs",
+  "version": "1.0.0",
+  "description": "days of devs calendar website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbtay/daysofdevs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattbtay/daysofdevs/issues"
+  },
+  "homepage": "https://github.com/mattbtay/daysofdevs#readme"
+}
