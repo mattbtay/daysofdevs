@@ -1,7 +1,2 @@
-body {
-  background: blue; }
-  body > div {
-    background: red;
-    width: 400px;
-    height: 400px;
-    display: block; }
+*{margin:0;padding:0}header{background:url(https://placeimg.com/1000/450/tech) top;width:100%;height:66vh;background-size:cover;display:-webkit-box;display:-ms-flexbox;display:flex}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYXR0YnRheS9EZXYvZGF5c29mZGV2cy9zcmMvc2Nzcy9fcmVzZXQuc2NzcyIsIi9Vc2Vycy9tYXR0YnRheS9EZXYvZGF5c29mZGV2cy9zcmMvc2Nzcy9tYWluLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsRUFDSSxTQUFRLEFBQ1IsU0FBUyxDQUNaLEFDREQsT0FDRSx1REFBK0QsQUFDL0QsV0FBVSxBQUNWLFlBQVcsQUFDWCxzQkFBc0IsQUFDdEIsb0JBQVksQUFBWixvQkFBWSxBQUFaLFlBQVksQ0FDYiIsImZpbGUiOiJzcmMvc2Nzcy9tYWluLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqIHtcbiAgICBtYXJnaW46MDtcbiAgICBwYWRkaW5nOjA7XG59IiwiQGltcG9ydCAnX3Jlc2V0JztcblxuaGVhZGVyIHtcbiAgYmFja2dyb3VuZDp1cmwoXCJodHRwczovL3BsYWNlaW1nLmNvbS8xMDAwLzQ1MC90ZWNoXCIpIHRvcCBjZW50ZXI7XG4gIHdpZHRoOjEwMCU7XG4gIGhlaWdodDo2NnZoO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBkaXNwbGF5OmZsZXg7XG59Il19 */
