@@ -65,103 +65,42 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(1)(true);
-// imports
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__scss_main_scss__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__scss_main_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__scss_main_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_main__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_main___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__js_main__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__img_logo_main_png__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__img_logo_main_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__img_logo_main_png__);
+// import style
 
 
-// module
-exports.push([module.i, "*{margin:0;padding:0}header{background:url(https://placeimg.com/1000/450/tech) top;width:100%;height:66vh;background-size:cover;display:-webkit-box;display:-ms-flexbox;display:flex}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYXR0YnRheS9EZXYvZGF5c29mZGV2cy9zcmMvc2Nzcy9fcmVzZXQuc2NzcyIsIi9Vc2Vycy9tYXR0YnRheS9EZXYvZGF5c29mZGV2cy9zcmMvc2Nzcy9tYWluLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsRUFDSSxTQUFRLEFBQ1IsU0FBUyxDQUNaLEFDREQsT0FDRSx1REFBK0QsQUFDL0QsV0FBVSxBQUNWLFlBQVcsQUFDWCxzQkFBc0IsQUFDdEIsb0JBQVksQUFBWixvQkFBWSxBQUFaLFlBQVksQ0FDYiIsImZpbGUiOiJzcmMvc2Nzcy9tYWluLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqIHtcbiAgICBtYXJnaW46MDtcbiAgICBwYWRkaW5nOjA7XG59IiwiQGltcG9ydCAnX3Jlc2V0JztcblxuaGVhZGVyIHtcbiAgYmFja2dyb3VuZDp1cmwoXCJodHRwczovL3BsYWNlaW1nLmNvbS8xMDAwLzQ1MC90ZWNoXCIpIHRvcCBjZW50ZXI7XG4gIHdpZHRoOjEwMCU7XG4gIGhlaWdodDo2NnZoO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBkaXNwbGF5OmZsZXg7XG59Il19 */", "", {"version":3,"sources":["/Users/mattbtay/Dev/daysofdevs/src/scss/_reset.scss","/Users/mattbtay/Dev/daysofdevs/src/scss/main.scss","/Users/mattbtay/Dev/daysofdevs/src/scss/main.scss"],"names":[],"mappings":"AAAA,EACI,SAAQ,SACC,CACZ,OCAC,uDAA+D,WACrD,YACC,sBACW,oBACtB,oBAAA,YAAY,CACb;ACPD,qwBAAqwB","file":"main.scss","sourcesContent":["* {\n    margin:0;\n    padding:0;\n}","@import '_reset';\n\nheader {\n  background:url(\"https://placeimg.com/1000/450/tech\") top center;\n  width:100%;\n  height:66vh;\n  background-size: cover;\n  display:flex;\n}","*{margin:0;padding:0}header{background:url(https://placeimg.com/1000/450/tech) top;width:100%;height:66vh;background-size:cover;display:-webkit-box;display:-ms-flexbox;display:flex}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYXR0YnRheS9EZXYvZGF5c29mZGV2cy9zcmMvc2Nzcy9fcmVzZXQuc2NzcyIsIi9Vc2Vycy9tYXR0YnRheS9EZXYvZGF5c29mZGV2cy9zcmMvc2Nzcy9tYWluLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsRUFDSSxTQUFRLEFBQ1IsU0FBUyxDQUNaLEFDREQsT0FDRSx1REFBK0QsQUFDL0QsV0FBVSxBQUNWLFlBQVcsQUFDWCxzQkFBc0IsQUFDdEIsb0JBQVksQUFBWixvQkFBWSxBQUFaLFlBQVksQ0FDYiIsImZpbGUiOiJzcmMvc2Nzcy9tYWluLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqIHtcbiAgICBtYXJnaW46MDtcbiAgICBwYWRkaW5nOjA7XG59IiwiQGltcG9ydCAnX3Jlc2V0JztcblxuaGVhZGVyIHtcbiAgYmFja2dyb3VuZDp1cmwoXCJodHRwczovL3BsYWNlaW1nLmNvbS8xMDAwLzQ1MC90ZWNoXCIpIHRvcCBjZW50ZXI7XG4gIHdpZHRoOjEwMCU7XG4gIGhlaWdodDo2NnZoO1xuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICBkaXNwbGF5OmZsZXg7XG59Il19 */"],"sourceRoot":""}]);
+//import main js
 
-// exports
+
+// images
 
 
 /***/ }),
 /* 1 */
 /***/ (function(module, exports) {
 
-/*
-	MIT License http://www.opensource.org/licenses/mit-license.php
-	Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-module.exports = function (useSourceMap) {
-	var list = [];
-
-	// return the list of modules as css string
-	list.toString = function toString() {
-		return this.map(function (item) {
-			var content = cssWithMappingToString(item, useSourceMap);
-			if (item[2]) {
-				return "@media " + item[2] + "{" + content + "}";
-			} else {
-				return content;
-			}
-		}).join("");
-	};
-
-	// import a list of modules into the list
-	list.i = function (modules, mediaQuery) {
-		if (typeof modules === "string") modules = [[null, modules, ""]];
-		var alreadyImportedModules = {};
-		for (var i = 0; i < this.length; i++) {
-			var id = this[i][0];
-			if (typeof id === "number") alreadyImportedModules[id] = true;
-		}
-		for (i = 0; i < modules.length; i++) {
-			var item = modules[i];
-			// skip already imported module
-			// this implementation is not 100% perfect for weird media query combinations
-			//  when a module is imported multiple times with different media queries.
-			//  I hope this will never occur (Hey this way we have smaller bundles)
-			if (typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-				if (mediaQuery && !item[2]) {
-					item[2] = mediaQuery;
-				} else if (mediaQuery) {
-					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-				}
-				list.push(item);
-			}
-		}
-	};
-	return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-	var content = item[1] || '';
-	var cssMapping = item[3];
-	if (!cssMapping) {
-		return content;
-	}
-
-	if (useSourceMap && typeof btoa === 'function') {
-		var sourceMapping = toComment(cssMapping);
-		var sourceURLs = cssMapping.sources.map(function (source) {
-			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';
-		});
-
-		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-	}
-
-	return [content].join('\n');
-}
-
-// Adapted from convert-source-map (MIT)
-function toComment(sourceMap) {
-	// eslint-disable-next-line no-undef
-	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
-
-	return '/*# ' + data + ' */';
-}
+// removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 2 */,
-/* 3 */
+/* 2 */
 /***/ (function(module, exports) {
 
 console.log('hello');
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/logo-main.png";
 
 /***/ })
 /******/ ]);
